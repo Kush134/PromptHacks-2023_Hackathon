@@ -1,0 +1,38 @@
+.not-active {
+    padding: 20px;
+    background: #444654;
+    color: white;
+}
+
+.qerror-page {
+    text-align: center;
+    margin-top: auto;
+    padding: 30px;
+}
+
+.qerror-page img {
+    width: 200px;
+}
+
+.qerror-page h3 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.qerror-page h4,
+.qerror-page li {
+    font-size: 16px;
+    text-align: left;
+}
+
+.qerror-page p {
+    margin: 0px;
+    margin-top: 10px;
+    color: #ffffffa6;
+}
+
+.qerror-page a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}

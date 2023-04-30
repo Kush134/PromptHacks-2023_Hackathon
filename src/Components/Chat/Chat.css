@@ -1,0 +1,200 @@
+/* Style for the chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #29292a;
+    color: white;
+    height: 540px;
+}
+
+/* Style for the chat messages */
+.chat-messages {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #29292a;
+}
+
+.chat-messages-div {
+    width: 100%;
+}
+
+/* Style for the chat message */
+.chat-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 12px;
+    width: fit-content;
+    max-width: 90%;
+}
+
+.chat-message-user {
+    background-color: #00edf3;
+    color: black;
+    border-radius: 18px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.chat-message-robot {
+    background-color: #4c4c4c;
+    color: white;
+    border-radius: 18px;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.chat-message-robot {
+    background-color: #40414F;
+}
+
+
+.chat-bottom {
+    margin-top: auto;
+    width: 100%;
+    background-color: #29292a;
+}
+
+/* Style for the chat message sender */
+.chat-message-sender {
+    font-weight: bold;
+    margin-right: 10px;
+    align-self: flex-start;
+    padding-top: 20px;
+}
+
+/* Style for the chat message text */
+.chat-message-text {
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Style for the chat input */
+.chat-input {
+    background-color: #29292a;
+    color: #fff;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+    border: none;
+    border-top: 2px solid #696b83;
+    font-size: 16px;
+}
+
+.chat-input-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.chat-prompt-toggle-btn {
+    margin: 5px 85% 10px 10px;
+    background: none;
+    border: 1px solid #00edf3;
+    border-radius: 18px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 9px;
+    width: 165px;
+}
+
+
+.chat-prompt-toggle-close-btn {
+    background: none;
+    border: none;
+    color: #00edf3;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    cursor: pointer;
+}
+
+/* Style for the chat send button */
+.chat-send-btn {
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+    font-size: 15px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.chat-send-btn:hover {
+    background-color: #343541;
+}
+
+.chat-input-box {
+    width: 100%;
+}
+
+.chat-menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    margin: 7px 0px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.chat-prefilled-btn {
+    border: 1px solid #00edf3;
+    border-radius: 18px;
+    margin: 3px 4px;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px;
+    background: none;
+    transition: 300ms;
+    background: none;
+    cursor: pointer;
+}
+
+.chat-prefilled-btn:hover {
+    color: black;
+    background-color: #00edf3;
+}
+
+.color-primary {
+    color: #00edf3;
+}
+
+.chat-welcome-msg {
+    text-align: center;
+    margin-top: auto;
+}
+
+.chat-welcome-msg img {
+    width: 100px;
+}
+
+.chat-welcome-msg h3 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.chat-welcome-msg p {
+    margin: 0px;
+    color: #ffffffa6;
+}
+
+.error-msg {
+    margin: auto;
+}

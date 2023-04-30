@@ -1,0 +1,23 @@
+{
+  "name": "Codie",
+  "description": "Codie is an AI powered chatbot that helps you when you're stuck at a coding problem while preparing for interviews. Codie supports most commonly used platforms such as Leetcode, AlgoExpert, Hackerrank and more. Codie is powered by the GPT-3 model from OpenAI.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "options_page": "options.html",
+    "default_title": "Codie",
+    "default_icon": {
+      "16": "logo192.png",
+      "32": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo192.png"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ]
+}
